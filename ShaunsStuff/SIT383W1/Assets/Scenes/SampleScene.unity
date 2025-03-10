@@ -694,13 +694,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 713260521}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 1, w: 0}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 180}
 --- !u!114 &713260526
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -714,7 +714,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   boxMaterial: {fileID: 2100000, guid: c0d439cf0b422ad44a1c8fdedec80911, type: 2}
+  offMaterial: {fileID: 2100000, guid: 9bb90334f91a3f74aafd7e3cf4f73883, type: 2}
   textBox: {fileID: 430979578}
+  offSwitch: {fileID: 969808028}
+  switchText: {fileID: 921792517}
 --- !u!1 &832575517
 GameObject:
   m_ObjectHideFlags: 0
@@ -924,7 +927,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Button
+  m_text: On
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}

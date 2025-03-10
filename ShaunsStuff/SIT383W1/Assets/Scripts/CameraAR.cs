@@ -1,10 +1,14 @@
 using UnityEngine;
 using TMPro;
+using UnityEngine.UI;
 
 public class CameraAR : MonoBehaviour
 {
     public Material boxMaterial;
+    public Material offMaterial;
     public TextMeshProUGUI textBox;
+    public Button offSwitch;
+    public TextMeshProUGUI switchText;
 
     private WebCamTexture wcTexture;
 
@@ -13,10 +17,25 @@ public class CameraAR : MonoBehaviour
     {
         wcTexture = new WebCamTexture();
         boxMaterial.mainTexture = wcTexture;
-        wcTexture.Play();
 
 
-        textBox.text = "Everything OK";
+        textBox.text = "Welcome to AR!";
+        offSwitch.onClick.AddListener(() =>
+        {
+            if (wcTexture.isPlaying)
+            {
+                wcTexture.Stop();
+                switchText.text = "On";
+                boxMaterial.mainTexture = offMaterial.mainTexture;
+            }
+            else
+            {
+                boxMaterial.mainTexture = wcTexture;
+                wcTexture.Play();
+                switchText.text = "Off";
+            }
+        });
+        
     }
 
     // Update is called once per frame
