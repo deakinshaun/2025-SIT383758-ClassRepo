@@ -18,18 +18,17 @@ Axel was here also...
 
 David was here and is very unsure if what he is doing is correct, but nothing ventured nothing gained.
 
-
 Yuvraj was here - its 32 degrees outside - very Hottt!!!!
 
 Jason is here for a visit ~~
+
 Shaun is back here.
 
 Shaun added more stuff without pulling first.
 
-Done
-but not sure how i did that
+Done, but not sure how i did that
 
-
+Anish has shown up all of a sudden
 
 
 
