@@ -595,19 +595,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 720752458}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1419110071}
-        m_TargetAssemblyTypeName: PhysicalCameraTexture, Assembly-CSharp
-        m_MethodName: nextCamera
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!114 &720752458
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -946,7 +934,6 @@ GameObject:
   - component: {fileID: 1419110069}
   - component: {fileID: 1419110068}
   - component: {fileID: 1419110067}
-  - component: {fileID: 1419110071}
   - component: {fileID: 1419110072}
   - component: {fileID: 1419110073}
   m_Layer: 0
@@ -1045,20 +1032,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1419110071
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1419110066}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 51a94be2c6d2f344c980ceee223be75f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  camTexMaterial: {fileID: 2100000, guid: a47ed21d819baaa489323e6b39e66b1e, type: 2}
-  outputText: {fileID: 0}
 --- !u!114 &1419110072
 MonoBehaviour:
   m_ObjectHideFlags: 0
