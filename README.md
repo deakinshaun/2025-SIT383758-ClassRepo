@@ -32,7 +32,9 @@ Anish has shown up all of a sudden
 
 Sharon finally made it
 
+Adam was here.
 
+Daniel is finally catching up
 
 
 
