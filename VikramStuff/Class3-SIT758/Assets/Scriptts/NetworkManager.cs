@@ -4,9 +4,19 @@ using Fusion.Sockets;
 using System.Collections.Generic;
 using System;
 
-public class NetworkManager : MonoBehaviour,INetworkRunnerCallbacks
+public struct InputNetworkData: INetworkInput
+{
+    public float turnAmount;
+    public float moveAmount;
+}
+public class NetworkManager : MonoBehaviour, INetworkRunnerCallbacks
 {
     private NetworkRunner _networkRunner;
+    public NetworkObject avtarPrefab;
+    private InputSystem_Actions _controls;
+    private float _turnSpeed = 100f;
+    private float _moveSpeed = 5f;
+
     public void StartServer()
     {
         StartNetwork(GameMode.Host);
@@ -26,42 +36,46 @@ public class NetworkManager : MonoBehaviour,INetworkRunnerCallbacks
 
     public void OnConnectedToServer(NetworkRunner runner)
     {
-        throw new NotImplementedException();
+        
+        
     }
 
     public void OnConnectFailed(NetworkRunner runner, NetAddress remoteAddress, NetConnectFailedReason reason)
     {
-        throw new NotImplementedException();
     }
 
     public void OnConnectRequest(NetworkRunner runner, NetworkRunnerCallbackArgs.ConnectRequest request, byte[] token)
     {
-        throw new NotImplementedException();
+        
     }
 
     public void OnCustomAuthenticationResponse(NetworkRunner runner, Dictionary<string, object> data)
     {
-        throw new NotImplementedException();
+        
     }
 
     public void OnDisconnectedFromServer(NetworkRunner runner, NetDisconnectReason reason)
     {
-        throw new NotImplementedException();
+        
     }
 
     public void OnHostMigration(NetworkRunner runner, HostMigrationToken hostMigrationToken)
     {
-        throw new NotImplementedException();
+       
     }
 
     public void OnInput(NetworkRunner runner, NetworkInput input)
     {
-        throw new NotImplementedException();
+        InputNetworkData inputData = new InputNetworkData();
+        float h = _controls.Player.Move.ReadValue<Vector2>().x;
+        float v = _controls.Player.Move.ReadValue<Vector2>().y;
+        transform.rotation *= Quaternion.AngleAxis(h * _turnSpeed * Time.deltaTime, Vector3.up);
+        transform.position += v * _moveSpeed * Time.deltaTime * transform.forward;
     }
 
     public void OnInputMissing(NetworkRunner runner, PlayerRef player, NetworkInput input)
     {
-        throw new NotImplementedException();
+        
     }
 
     public void OnObjectEnterAOI(NetworkRunner runner, NetworkObject obj, PlayerRef player)
@@ -76,7 +90,13 @@ public class NetworkManager : MonoBehaviour,INetworkRunnerCallbacks
 
     public void OnPlayerJoined(NetworkRunner runner, PlayerRef player)
     {
-        throw new NotImplementedException();
+        Debug.Log("connected");
+        if (_networkRunner.IsServer)
+        {
+            NetworkObject avtar = _networkRunner.Spawn(avtarPrefab, Vector3.zero, Quaternion.identity, player);
+            _networkRunner.SetPlayerObject(player, avtar);
+        }
+        
     }
 
     public void OnPlayerLeft(NetworkRunner runner, PlayerRef player)
@@ -121,7 +141,8 @@ public class NetworkManager : MonoBehaviour,INetworkRunnerCallbacks
 
     void Start()
     {
-        
+        _controls = new InputSystem_Actions();
+        _controls.Enable();
     }
 
    
