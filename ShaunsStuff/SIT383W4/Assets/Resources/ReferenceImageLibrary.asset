@@ -1,0 +1,49 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 848409ee8ba454f42a5ddff137688a27, type: 3}
+  m_Name: ReferenceImageLibrary
+  m_EditorClassIdentifier: 
+  m_GuidLow: 4885899297264044098
+  m_GuidHigh: 1755012368691701412
+  m_DataStore:
+    m_Storage: []
+  m_Images:
+  - m_SerializedGuid:
+      m_GuidLow: 5547349803142928622
+      m_GuidHigh: 2163120247478802580
+    m_SerializedTextureGuid:
+      m_GuidLow: 10287534001590115519
+      m_GuidHigh: 4935695539633424522
+    m_Size: {x: 0.10851064, y: 0.1}
+    m_SpecifySize: 1
+    m_Name: gettyimages-glz017-612x612
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5159444275942489755
+      m_GuidHigh: 758138136020234683
+    m_SerializedTextureGuid:
+      m_GuidLow: 17196042703914198906
+      m_GuidHigh: 4543075094026998201
+    m_Size: {x: 0.082591094, y: 0.1}
+    m_SpecifySize: 1
+    m_Name: images
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5298067385223831824
+      m_GuidHigh: 18195497732097196460
+    m_SerializedTextureGuid:
+      m_GuidLow: 15214389745367920298
+      m_GuidHigh: 2958730948048145032
+    m_Size: {x: 0.1, y: 0.08945148}
+    m_SpecifySize: 1
+    m_Name: veryfunny
+    m_Texture: {fileID: 0}
