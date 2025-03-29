@@ -74,10 +74,18 @@ public class NetworkManager : MonoBehaviour, INetworkRunnerCallbacks
 
     public void OnInput(NetworkRunner runner, NetworkInput input)
     {
+        
         InputNetworkData inputData = new InputNetworkData();
         inputData.turnAmount = _controls.Player.Move.ReadValue<Vector2>().x;
         inputData.moveAmount = _controls.Player.Move.ReadValue<Vector2>().y;
+        input.Set(inputData);
 
+    }
+
+    public void UpdateName(string name)
+    {
+        Debug.Log("Updating nickname " + name);
+        _networkRunner.GetPlayerObject(_networkRunner.LocalPlayer).gameObject.GetComponent<AvatarName>().SetName(name);
     }
 
     public void OnInputMissing(NetworkRunner runner, PlayerRef player, NetworkInput input)
