@@ -14,9 +14,6 @@ public class NetworkManager : MonoBehaviour, INetworkRunnerCallbacks
     private NetworkRunner _networkRunner;
     public NetworkObject avtarPrefab;
     private InputSystem_Actions _controls;
-    private float _turnSpeed = 100f;
-    private float _moveSpeed = 5f;
-
     public void StartServer()
     {
         StartNetwork(GameMode.Host);
@@ -64,13 +61,23 @@ public class NetworkManager : MonoBehaviour, INetworkRunnerCallbacks
        
     }
 
+    public void OnPlayerJoined(NetworkRunner runner, PlayerRef player)
+    {
+        Debug.Log("connected");
+        if (_networkRunner.IsServer)
+        {
+            NetworkObject avtar = _networkRunner.Spawn(avtarPrefab, Vector3.zero, Quaternion.identity, player);
+            _networkRunner.SetPlayerObject(player, avtar);
+        }
+
+    }
+
     public void OnInput(NetworkRunner runner, NetworkInput input)
     {
         InputNetworkData inputData = new InputNetworkData();
-        float h = _controls.Player.Move.ReadValue<Vector2>().x;
-        float v = _controls.Player.Move.ReadValue<Vector2>().y;
-        transform.rotation *= Quaternion.AngleAxis(h * _turnSpeed * Time.deltaTime, Vector3.up);
-        transform.position += v * _moveSpeed * Time.deltaTime * transform.forward;
+        inputData.turnAmount = _controls.Player.Move.ReadValue<Vector2>().x;
+        inputData.moveAmount = _controls.Player.Move.ReadValue<Vector2>().y;
+
     }
 
     public void OnInputMissing(NetworkRunner runner, PlayerRef player, NetworkInput input)
@@ -80,63 +87,54 @@ public class NetworkManager : MonoBehaviour, INetworkRunnerCallbacks
 
     public void OnObjectEnterAOI(NetworkRunner runner, NetworkObject obj, PlayerRef player)
     {
-        throw new NotImplementedException();
+       
     }
 
     public void OnObjectExitAOI(NetworkRunner runner, NetworkObject obj, PlayerRef player)
     {
-        throw new NotImplementedException();
-    }
-
-    public void OnPlayerJoined(NetworkRunner runner, PlayerRef player)
-    {
-        Debug.Log("connected");
-        if (_networkRunner.IsServer)
-        {
-            NetworkObject avtar = _networkRunner.Spawn(avtarPrefab, Vector3.zero, Quaternion.identity, player);
-            _networkRunner.SetPlayerObject(player, avtar);
-        }
         
     }
 
+ 
+
     public void OnPlayerLeft(NetworkRunner runner, PlayerRef player)
     {
-        throw new NotImplementedException();
+        
     }
 
     public void OnReliableDataProgress(NetworkRunner runner, PlayerRef player, ReliableKey key, float progress)
     {
-        throw new NotImplementedException();
+       
     }
 
     public void OnReliableDataReceived(NetworkRunner runner, PlayerRef player, ReliableKey key, ArraySegment<byte> data)
     {
-        throw new NotImplementedException();
+       
     }
 
     public void OnSceneLoadDone(NetworkRunner runner)
     {
-        throw new NotImplementedException();
+       
     }
 
     public void OnSceneLoadStart(NetworkRunner runner)
     {
-        throw new NotImplementedException();
+       
     }
 
     public void OnSessionListUpdated(NetworkRunner runner, List<SessionInfo> sessionList)
     {
-        throw new NotImplementedException();
+
     }
 
     public void OnShutdown(NetworkRunner runner, ShutdownReason shutdownReason)
     {
-        throw new NotImplementedException();
+       
     }
 
     public void OnUserSimulationMessage(NetworkRunner runner, SimulationMessagePtr message)
     {
-        throw new NotImplementedException();
+        
     }
 
     void Start()
