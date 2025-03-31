@@ -1,0 +1,5 @@
+C:/unity projects for sit758/2025-SIT383758-ClassRepo/VikramStuff/week4/.utmp/RelWithDebInfo/2m71691m/arm64-v8a/CMakeFiles/edit_cache.dir
+C:/unity projects for sit758/2025-SIT383758-ClassRepo/VikramStuff/week4/.utmp/RelWithDebInfo/2m71691m/arm64-v8a/CMakeFiles/rebuild_cache.dir
+C:/unity projects for sit758/2025-SIT383758-ClassRepo/VikramStuff/week4/.utmp/RelWithDebInfo/2m71691m/arm64-v8a/GameActivity/CMakeFiles/game.dir
+C:/unity projects for sit758/2025-SIT383758-ClassRepo/VikramStuff/week4/.utmp/RelWithDebInfo/2m71691m/arm64-v8a/GameActivity/CMakeFiles/edit_cache.dir
+C:/unity projects for sit758/2025-SIT383758-ClassRepo/VikramStuff/week4/.utmp/RelWithDebInfo/2m71691m/arm64-v8a/GameActivity/CMakeFiles/rebuild_cache.dir
