@@ -1,0 +1,417 @@
+Using pre-set license
+Built from '6000.0/staging' branch; Version is '6000.0.41f1 (46e447368a18) revision 4645959'; Using compiler version '193933523'; Build Type 'Release'
+OS: 'Windows 11  (10.0.26100) 64bit CoreSingleLanguage' Language: 'en' Physical Memory: 16005 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\6000.0.41f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/unity projects for sit758/2025-SIT383758-ClassRepo/VikramStuff/sentis-blaze-hand
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+64888
+-job-worker-count
+5
+-background-job-worker-count
+8
+-gc-helper-count
+1
+Successfully changed project path to: C:/unity projects for sit758/2025-SIT383758-ClassRepo/VikramStuff/sentis-blaze-hand
+C:/unity projects for sit758/2025-SIT383758-ClassRepo/VikramStuff/sentis-blaze-hand
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [14688]  Target information:
+
+Player connection [14688]  * "[IP] 192.168.1.110 [Port] 0 [Flags] 2 [Guid] 2070772060 [EditorId] 2070772060 [Version] 1048832 [Id] WindowsEditor(7,VikramsNotebook) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [14688] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [14688] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 5
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Library Redirect Path: Library/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Refreshing native plugins compatible for Editor in 3.34 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 6000.0.41f1 (46e447368a18)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.0.41f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/unity projects for sit758/2025-SIT383758-ClassRepo/VikramStuff/sentis-blaze-hand/Assets
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3050 Laptop GPU (ID=0x25a2)
+    Vendor:   NVIDIA
+    VRAM:     3964 MB
+    Driver:   32.0.15.6607
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.0.41f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.0.41f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.0.41f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56332
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.41f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.41f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Registered in 0.004359 seconds.
+- Loaded All Assemblies, in  0.647 seconds
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 391 ms
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.954 seconds
+Domain Reload Profiling: 1600ms
+	BeginReloadAssembly (256ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (83ms)
+	RebuildNativeTypeToScriptingClass (22ms)
+	initialDomainReloadingComplete (74ms)
+	LoadAllAssembliesAndSetupDomain (211ms)
+		LoadAssemblies (252ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (206ms)
+			TypeCache.Refresh (204ms)
+				TypeCache.ScanAssembly (186ms)
+			BuildScriptInfoCaches (0ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (955ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (888ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (531ms)
+			SetLoadedEditorAssemblies (6ms)
+			BeforeProcessingInitializeOnLoad (76ms)
+			ProcessInitializeOnLoadAttributes (175ms)
+			ProcessInitializeOnLoadMethodAttributes (100ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  1.373 seconds
+Refreshing native plugins compatible for Editor in 2.71 ms, found 3 plugins.
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.318 seconds
+Domain Reload Profiling: 2688ms
+	BeginReloadAssembly (269ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (9ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (49ms)
+	RebuildCommonClasses (52ms)
+	RebuildNativeTypeToScriptingClass (16ms)
+	initialDomainReloadingComplete (59ms)
+	LoadAllAssembliesAndSetupDomain (972ms)
+		LoadAssemblies (581ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (544ms)
+			TypeCache.Refresh (432ms)
+				TypeCache.ScanAssembly (405ms)
+			BuildScriptInfoCaches (96ms)
+			ResolveRequiredComponents (12ms)
+	FinalizeReload (1320ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1058ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (19ms)
+			SetLoadedEditorAssemblies (7ms)
+			BeforeProcessingInitializeOnLoad (182ms)
+			ProcessInitializeOnLoadAttributes (560ms)
+			ProcessInitializeOnLoadMethodAttributes (284ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (13ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
+Refreshing native plugins compatible for Editor in 1.94 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 298 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6193 unused Assets / (17.1 MB). Loaded Objects now: 6901.
+Memory consumption went from 189.4 MB to 172.2 MB.
+Total: 17.250900 ms (FindLiveObjects: 1.023100 ms CreateObjectMapping: 0.999900 ms MarkObjects: 7.512300 ms  DeleteObjects: 7.713700 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 177610.229541 seconds.
+  path: Assets/Models
+  artifactKey: Guid(85e5bbf9ea4fcec47b59488f7e6b6d0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models using Guid(85e5bbf9ea4fcec47b59488f7e6b6d0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4e1a824a67f45929b5445b475f5416ba') in 0.0099553 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.068403 seconds.
+  path: Assets/Models/hand_detector.onnx
+  artifactKey: Guid(90d06f090a132a14ba6c1332cf06fbba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/hand_detector.onnx using Guid(90d06f090a132a14ba6c1332cf06fbba) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '63e6172664c763328dc179d616bc2697') in 0.0342083 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.856152 seconds.
+  path: Assets/Models/hand_landmarks_detector.onnx
+  artifactKey: Guid(cdde4f95158ab4743ae0eed9dcba1964) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/hand_landmarks_detector.onnx using Guid(cdde4f95158ab4743ae0eed9dcba1964) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a30413a9751f3b977729d65658e363c2') in 0.0109431 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 1.30 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 53 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 53 unused Assets / (13.4 MB). Loaded Objects now: 6904.
+Memory consumption went from 140.0 MB to 126.6 MB.
+Total: 9.587600 ms (FindLiveObjects: 0.322900 ms CreateObjectMapping: 0.219900 ms MarkObjects: 7.215900 ms  DeleteObjects: 1.826400 ms)
+
+Prepare: number of updated asset objects reloaded= 151
+AssetImportParameters requested are different than current active one (requested -> active):
+  buildTarget: platform 13, subtarget 0, extendedPlatform 0 -> platform 19, subtarget 2, extendedPlatform 0
+  graphicsApiMask: 2099200 -> 4
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 1.07 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 53 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 53 unused Assets / (13.4 MB). Loaded Objects now: 6904.
+Memory consumption went from 140.2 MB to 126.8 MB.
+Total: 6.877500 ms (FindLiveObjects: 0.413100 ms CreateObjectMapping: 0.215900 ms MarkObjects: 4.252100 ms  DeleteObjects: 1.995000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  buildTarget: platform 13, subtarget 0, extendedPlatform 0 -> platform 19, subtarget 2, extendedPlatform 0
+  graphicsApiMask: 2099200 -> 4
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  1.274 seconds
+Refreshing native plugins compatible for Editor in 1.21 ms, found 3 plugins.
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.440 seconds
+Domain Reload Profiling: 3712ms
+	BeginReloadAssembly (343ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (11ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (86ms)
+	RebuildCommonClasses (62ms)
+	RebuildNativeTypeToScriptingClass (21ms)
+	initialDomainReloadingComplete (46ms)
+	LoadAllAssembliesAndSetupDomain (799ms)
+		LoadAssemblies (603ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (374ms)
+			TypeCache.Refresh (194ms)
+				TypeCache.ScanAssembly (176ms)
+			BuildScriptInfoCaches (157ms)
+			ResolveRequiredComponents (18ms)
+	FinalizeReload (2441ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1616ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (47ms)
+			SetLoadedEditorAssemblies (11ms)
+			BeforeProcessingInitializeOnLoad (364ms)
+			ProcessInitializeOnLoadAttributes (818ms)
+			ProcessInitializeOnLoadMethodAttributes (358ms)
+			AfterProcessingInitializeOnLoad (18ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (38ms)
+Refreshing native plugins compatible for Editor in 1.55 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 63 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6191 unused Assets / (19.2 MB). Loaded Objects now: 6919.
+Memory consumption went from 158.3 MB to 139.1 MB.
+Total: 12.908600 ms (FindLiveObjects: 0.794900 ms CreateObjectMapping: 0.890100 ms MarkObjects: 5.179700 ms  DeleteObjects: 6.042100 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 209.939893 seconds.
+  path: Assets/HandDetection.unity
+  artifactKey: Guid(159f9c97dca60b84193d0b1f8aeff379) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/HandDetection.unity using Guid(159f9c97dca60b84193d0b1f8aeff379) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '1a0862fa0cd6ba37227329400dde9b87') in 0.257984 seconds
+Number of updated asset objects reloaded before import = 1Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Prefabs/Keypoint.prefab
+  artifactKey: Guid(377a460bec81a4e4096331ce0920a951) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Prefabs/Keypoint.prefab using Guid(377a460bec81a4e4096331ce0920a951) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'bd2f33f56c0d969a1954c989b43eb826') in 0.105806 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Data/pexels-muhammad-hassaan-488991371-20200314.jpg
+  artifactKey: Guid(467dcbbedf036de459068f0f0e277d65) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Data/pexels-muhammad-hassaan-488991371-20200314.jpg using Guid(467dcbbedf036de459068f0f0e277d65) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '44904a768a251fd59cb4d501c394426f') in 0.1051511 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Settings/Mobile_RPAsset.asset
+  artifactKey: Guid(5e6cbd92db86f4b18aec3ed561671858) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Settings/Mobile_RPAsset.asset using Guid(5e6cbd92db86f4b18aec3ed561671858) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'fc30e36102813828cf8a12958577a4e4') in 0.0631821 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Scripts/HandDetection.cs
+  artifactKey: Guid(ae2eb443caa7ad94aad55b4a8a8fb4ea) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scripts/HandDetection.cs using Guid(ae2eb443caa7ad94aad55b4a8a8fb4ea) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'bed93f079085c9af0b0160c796095a74') in 0.0219094 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Materials/Keypoint.mat
+  artifactKey: Guid(4a1da085a61f48e48b16d1388d915005) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Materials/Keypoint.mat using Guid(4a1da085a61f48e48b16d1388d915005) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '9b0fff17ad036eb163921884272960c0') in 0.0419608 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Scripts/ImagePreview.cs
+  artifactKey: Guid(880a785bdfd105f4da5848e8712cb65f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scripts/ImagePreview.cs using Guid(880a785bdfd105f4da5848e8712cb65f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b655d24546ba52baae74cb8a7c680476') in 0.017402 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Settings/SampleSceneProfile.asset
+  artifactKey: Guid(10fc4df2da32a41aaa32d77bc913491c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Settings/SampleSceneProfile.asset using Guid(10fc4df2da32a41aaa32d77bc913491c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c2c8d1805ad2a8dfd00add218a43b36f') in 0.0209927 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Data/anchors.csv
+  artifactKey: Guid(3e88456b82cc63d4b9237f1dc38bad6d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Data/anchors.csv using Guid(3e88456b82cc63d4b9237f1dc38bad6d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f34e7df55f2deb8e795a3725a726b8cb') in 0.0170366 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Prefabs/Hand Preview.prefab
+  artifactKey: Guid(585d5cb4d0fde2045805fda7581e0bda) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Prefabs/Hand Preview.prefab using Guid(585d5cb4d0fde2045805fda7581e0bda) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '6858c599cd78bc861feb5ab1e684e2a4') in 0.0292259 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 324
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Scripts/KeypointLine.cs
+  artifactKey: Guid(86120ca7bcca62c4b8095d53f07fba20) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scripts/KeypointLine.cs using Guid(86120ca7bcca62c4b8095d53f07fba20) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '56486430e9afe6a0e9b6e975a26c2aa2') in 0.0185222 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000065 seconds.
+  path: Assets/Scripts/HandPreview.cs
+  artifactKey: Guid(a13d9ed61ce25fa4caf885d6c7222b9d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scripts/HandPreview.cs using Guid(a13d9ed61ce25fa4caf885d6c7222b9d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '405e8b18bb93aebaeebd829c4379b97f') in 0.0155843 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Settings/DefaultVolumeProfile.asset
+  artifactKey: Guid(ab09877e2e707104187f6f83e2f62510) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Settings/DefaultVolumeProfile.asset using Guid(ab09877e2e707104187f6f83e2f62510) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b988d4a3146cbbb3c93de38df17407ab') in 0.0191104 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Materials/ground.mat
+  artifactKey: Guid(aefed65d634b9ca40bccd6d1196fc35b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Materials/ground.mat using Guid(aefed65d634b9ca40bccd6d1196fc35b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ce543cfbf7a9b83092be8b063671e6be') in 0.0282756 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Prefabs/Image Preview.prefab
+  artifactKey: Guid(018beb1d9eeb8934c996558e0051c665) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Prefabs/Image Preview.prefab using Guid(018beb1d9eeb8934c996558e0051c665) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e22de0c17c4f02aeac882ca04865065d') in 0.0241239 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Prefabs/KeypointLine.prefab
+  artifactKey: Guid(a55db4d583df47e489aeffbbcd9726e1) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Prefabs/KeypointLine.prefab using Guid(a55db4d583df47e489aeffbbcd9726e1) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a5a9eb45f6354f1d32ca4da42ad20614') in 0.0244955 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+

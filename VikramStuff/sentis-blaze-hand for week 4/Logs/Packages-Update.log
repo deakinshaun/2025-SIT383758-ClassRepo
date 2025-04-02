@@ -1,0 +1,16 @@
+
+=== Wed Apr  2 19:59:05 2025
+
+Packages were changed.
+Update Mode: updateDependencies
+
+The following packages were added:
+  com.unity.multiplayer.center@1.0.0
+The following packages were updated:
+  com.unity.ai.navigation from version 2.0.0 to 2.0.6
+  com.unity.collab-proxy from version 2.4.4 to 2.7.1
+  com.unity.inputsystem from version 1.9.0 to 1.13.1
+  com.unity.render-pipelines.universal from version 17.0.3 to 17.0.4
+  com.unity.sentis from version 2.0.0 to 2.1.2
+  com.unity.test-framework from version 1.4.4 to 1.4.6
+  com.unity.visualscripting from version 1.9.4 to 1.9.5
