@@ -8,8 +8,12 @@
 [Oo]bj/
 [Tt]emp/
 [Uu]nityGenerated/
+[Uu]serSettings/
+[Ll]ogs/
+.utmp/
 # file on crash reports
 sysinfo.txt
+# Unity3D generated meta files
 # Unity3D generated meta files
 *.pidb.meta
 
