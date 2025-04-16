@@ -27,3 +27,23 @@ MonoBehaviour:
     m_SpecifySize: 1
     m_Name: Cartoon
     m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 4693344986688834045
+      m_GuidHigh: 5055266227150742197
+    m_SerializedTextureGuid:
+      m_GuidLow: 3460167357291292444
+      m_GuidHigh: 3740586697468920635
+    m_Size: {x: 0.1, y: 0.10218688}
+    m_SpecifySize: 1
+    m_Name: SarahScribble
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 4911568295748986132
+      m_GuidHigh: 34094338956154009
+    m_SerializedTextureGuid:
+      m_GuidLow: 16939289411116972346
+      m_GuidHigh: 7980814894092539387
+    m_Size: {x: 0.1, y: 0.1}
+    m_SpecifySize: 1
+    m_Name: Bee
+    m_Texture: {fileID: 0}
