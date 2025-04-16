@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 8308417185029650234}
   - component: {fileID: 5042529792252515421}
   - component: {fileID: 3798533987767120770}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Cube
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -120,7 +120,7 @@ GameObject:
   - component: {fileID: 6213037992658733894}
   - component: {fileID: 4664073165257646655}
   - component: {fileID: 185215600895069108}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Sphere
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -225,7 +225,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1754255333609856544}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: CoolObject
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -240,7 +240,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4829893014957115985}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: 0, y: 0.7557963, z: 0, w: 0.6548068}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -248,4 +248,4 @@ Transform:
   - {fileID: 6929141058655343727}
   - {fileID: 2236035429408431392}
   m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 98.19, z: 0}

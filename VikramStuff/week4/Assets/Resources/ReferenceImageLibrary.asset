@@ -47,3 +47,23 @@ MonoBehaviour:
     m_SpecifySize: 1
     m_Name: 3
     m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5675244518199077543
+      m_GuidHigh: 14836188756748289168
+    m_SerializedTextureGuid:
+      m_GuidLow: 16592585480983990244
+      m_GuidHigh: 8439965630153919835
+    m_Size: {x: 1, y: 1.284}
+    m_SpecifySize: 1
+    m_Name: gold
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5507095566766573690
+      m_GuidHigh: 11189524645679261584
+    m_SerializedTextureGuid:
+      m_GuidLow: 10697239003590612653
+      m_GuidHigh: 9938123363744878474
+    m_Size: {x: 1, y: 1.3645834}
+    m_SpecifySize: 1
+    m_Name: tree
+    m_Texture: {fileID: 0}
