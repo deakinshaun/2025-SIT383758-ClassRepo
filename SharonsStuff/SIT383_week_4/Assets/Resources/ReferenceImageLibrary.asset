@@ -1,0 +1,69 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 848409ee8ba454f42a5ddff137688a27, type: 3}
+  m_Name: ReferenceImageLibrary
+  m_EditorClassIdentifier: 
+  m_GuidLow: 4801682583664876547
+  m_GuidHigh: 13547801584361868424
+  m_DataStore:
+    m_Storage: []
+  m_Images:
+  - m_SerializedGuid:
+      m_GuidLow: 4757849204218943064
+      m_GuidHigh: 1089182638239694778
+    m_SerializedTextureGuid:
+      m_GuidLow: 915370281767429396
+      m_GuidHigh: 1999315725406603082
+    m_Size: {x: 0.2, y: 0.1}
+    m_SpecifySize: 1
+    m_Name: modernCorners
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5638267151825893097
+      m_GuidHigh: 6726311744993986730
+    m_SerializedTextureGuid:
+      m_GuidLow: 13894745346133118991
+      m_GuidHigh: 14228396062043077529
+    m_Size: {x: 0.2, y: 0.14029852}
+    m_SpecifySize: 1
+    m_Name: trackImage2
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5157881213843401099
+      m_GuidHigh: 8534068338443570826
+    m_SerializedTextureGuid:
+      m_GuidLow: 9616431762126639107
+      m_GuidHigh: 14307507528886045225
+    m_Size: {x: 0.2, y: 0.20089287}
+    m_SpecifySize: 1
+    m_Name: trackImage3
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 4831128287643666457
+      m_GuidHigh: 9538031616208871084
+    m_SerializedTextureGuid:
+      m_GuidLow: 3122227177278053188
+      m_GuidHigh: 3921217827351449674
+    m_Size: {x: 0.2, y: 0.2}
+    m_SpecifySize: 1
+    m_Name: trackImage4
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 4697571335448823070
+      m_GuidHigh: 11537121087037846146
+    m_SerializedTextureGuid:
+      m_GuidLow: 1613545759658238687
+      m_GuidHigh: 8620883229431650330
+    m_Size: {x: 0.2, y: 0.17890295}
+    m_SpecifySize: 1
+    m_Name: trackImage5
+    m_Texture: {fileID: 0}
