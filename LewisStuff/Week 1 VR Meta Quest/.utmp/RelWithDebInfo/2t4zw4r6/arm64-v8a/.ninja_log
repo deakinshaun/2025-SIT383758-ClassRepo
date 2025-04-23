@@ -1,0 +1,10 @@
+# ninja log v5
+16	1512	7664059242568731	GameActivity/CMakeFiles/game.dir/UGAInputKeyEvent.cpp.o	c387fcb9ed5c7938
+6	1535	7664059242810768	GameActivity/CMakeFiles/game.dir/UGAConfiguration.cpp.o	a8dc1916d5a689df
+22	1548	7664059243015296	GameActivity/CMakeFiles/game.dir/UGAEntry.cpp.o	bd97773131cf44ea
+35	1575	7664059243258489	GameActivity/CMakeFiles/game.dir/UGAInputMotionEvent.cpp.o	8a54b9b047e0f70e
+11	1640	7664059243901614	GameActivity/CMakeFiles/game.dir/UGADebug.cpp.o	c9759e009e7673c6
+43	1786	7664059245371646	GameActivity/CMakeFiles/game.dir/UGASoftKeyboard.cpp.o	c63cee7b90c0aee5
+29	1807	7664059245557661	GameActivity/CMakeFiles/game.dir/UGAInput.cpp.o	ff635c5d7626f8e4
+0	1913	7664059246648174	GameActivity/CMakeFiles/game.dir/UGAApplication.cpp.o	162905b9e6bc06e3
+1913	2054	7664059248082772	C:/Users/lewys/2025-SIT383758-ClassRepo/LewisStuff/Week 1 VR Meta Quest/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/cxx/RelWithDebInfo/2t4zw4r6/obj/arm64-v8a/libgame.so	4ad88b43a930eb7a
