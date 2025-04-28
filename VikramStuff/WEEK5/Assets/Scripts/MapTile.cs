@@ -20,10 +20,10 @@ public class MapTile : MonoBehaviour
         // string url = "http://a.tile.thunderforest.com/transport/" + z + "/" + x + "/" + y + ".png";
         // string url = "https://s3.amazonaws.com/elevation-tiles-prod/terrarium/" + z + "/" + x + "/" + y + ".png";
 
-        Texture2D textureElevation = RetrieveTile("https://s3.amazonaws.com/elevation-tiles-prod/terrarium/",64, 42, 7);
-        Texture2D textureColour = RetrieveTile("http://a.tile.thunderforest.com/transport/", 64, 42, 7);
-        mapMat.mainTexture = textureColour;
-        CreateMesh(128, 128,textureElevation);
+        Texture2D textureElevation = RetrieveTile("https://s3.amazonaws.com/elevation-tiles-prod/terrarium/",64, 42, 7);  // png textture with rbg values encoded in it
+        Texture2D textureColour = RetrieveTile("http://a.tile.thunderforest.com/transport/", 64, 42, 7); // this one returs a map image 
+        mapMat.mainTexture = textureColour; // assign it to terrian mesh
+        CreateMesh(512, 512,textureElevation);
     }
     private int indexOf(int ix, int iy, int width) 
     {
@@ -57,9 +57,9 @@ public class MapTile : MonoBehaviour
     {
         float Scale = .1f;
         float vScale = .005f;
-        Vector3[] vertices = new Vector3[x*y];
-        int[] faces = new int[(x - 1) * (y - 1) * 6];
-        Vector2[] uvs = new Vector2[x * y];
+        Vector3[] vertices = new Vector3[x*y]; //  each point in the terrian 
+        int[] faces = new int[(x - 1) * (y - 1) * 6]; // triamgles betwen those points 
+        Vector2[] uvs = new Vector2[x * y];  // these are the texture cordinates 
 
         for(int ix = 0; ix < x; ix++)
         {
@@ -67,14 +67,15 @@ public class MapTile : MonoBehaviour
             {
                 float u = (float)ix / (x - 1);
                 float v = (float)iy / (y - 1);
-                vertices[indexOf(ix, iy,x)] = new Vector3(ix * Scale, vScale*GetElevation(u,v,texture), iy*Scale);
+                vertices[indexOf(ix, iy,x)] = new Vector3(ix * Scale, vScale*GetElevation(u,v,texture), iy*Scale); // it loops through every  grid point while getting
+                                                                                                                   // elevation from png for each grid point  
 
                 uvs[indexOf(ix, iy, x)] = new Vector2(u,v);
                 if ((ix != x - 1)&& (iy != y - 1))
                 {
-                    faces[faceIndexOf(ix, iy, x) * 6 + 0] = indexOf(ix, iy, x);
-                    faces[faceIndexOf(ix, iy, x) * 6 + 1] = indexOf(ix, iy, x)+x;
-                    faces[faceIndexOf(ix, iy, x) * 6 + 2] = indexOf(ix, iy, x) + 1;
+                    faces[faceIndexOf(ix, iy, x) * 6 + 0] = indexOf(ix, iy, x); // genrating tringle faces for ex this is bottom left 
+                    faces[faceIndexOf(ix, iy, x) * 6 + 1] = indexOf(ix, iy, x)+x; // top left 
+                    faces[faceIndexOf(ix, iy, x) * 6 + 2] = indexOf(ix, iy, x) + 1;// bottom-right
 
                     faces[faceIndexOf(ix, iy, x) * 6 + 3] = indexOf(ix, iy, x)+1;
                     faces[faceIndexOf(ix, iy, x) * 6 + 4] = indexOf(ix, iy, x) + x;
@@ -83,7 +84,7 @@ public class MapTile : MonoBehaviour
             }
         }
 
-        Mesh m = new Mesh();
+        Mesh m = new Mesh(); //Creates the Unity Mesh, fills in data, recalculates normals for lighting, and assigns it to the GameObject’s MeshFilter.
         m.indexFormat = UnityEngine.Rendering.IndexFormat.UInt32;
         m.vertices = vertices;
         m.triangles = faces;
@@ -92,20 +93,15 @@ public class MapTile : MonoBehaviour
         objectMesh.mesh = m;
     }
 
-    public Texture2D RetrieveTile(string urlBase,int x, int y, int z)
+    public Texture2D RetrieveTile(string urlBase,int x, int y, int z)   //Builds the full URL like baseURL/z/x/y.png Sends a web request(with a user-agent)
+                                                                 //Reads the binary PNG data into a new Texture2D
     {
-
-        string url = urlBase+z+"/"+x+"/" + y + ".png";
+        string url = urlBase+z+"/"+x+"/" + y + ".png";   
         WebRequest www =  WebRequest.Create(url);
         ((HttpWebRequest)www).UserAgent = "MapTile";
         var response = www.GetResponse();
         Texture2D tex = new Texture2D(2, 2);
         ImageConversion.LoadImage(tex, new BinaryReader(response.GetResponseStream()).ReadBytes(100000));
         return tex;
-    }
-    // Update is called once per frame
-    void Update()
-    {
-        
     }
 }

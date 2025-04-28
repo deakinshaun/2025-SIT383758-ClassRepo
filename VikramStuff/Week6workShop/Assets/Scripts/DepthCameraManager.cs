@@ -17,7 +17,7 @@ public class DepthCameraManager : MonoBehaviour
     private void LoadModel()
     {
         var model = ModelLoader.Load(estimationModel);
-        // Extend the graph with some post processing to normalize the depth map.
+      
         var graph = new FunctionalGraph();
         var inputs = graph.AddInputs(model);
         FunctionalTensor[] outputs = Functional.Forward(model, inputs);
