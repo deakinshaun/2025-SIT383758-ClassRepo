@@ -146,7 +146,42 @@ public class HandDetection : MonoBehaviour
         Vector3 thumbTip = jointPosition[4];
         Vector3 indexTip = jointPosition[8];
         float nomarlizeddistance = (indexTip - thumbTip).magnitude / (thumbTip - wrist).magnitude;
-        Debug.Log("distace " + nomarlizeddistance);
+
+        if (nomarlizeddistance < 0.12f)
+        {
+            Effects.effects.MakeSpark(indexTip, quaternion.identity);
+        }
+
+
+        Vector3 middleTip = jointPosition[12];
+        Vector3 ringTip = jointPosition[16];
+        Vector3 pinkyTip = jointPosition[20];
+
+        
+        float indexDist = (indexTip - wrist).magnitude;
+        float thumbDist = (thumbTip - wrist).magnitude;
+        float middleDist = (middleTip - wrist).magnitude;
+        float ringDist = (ringTip - wrist).magnitude;
+        float pinkyDist = (pinkyTip - wrist).magnitude;
+
+        
+        bool isIndexOut = indexDist > 0.09f;
+        bool othersClosed =
+            thumbDist < 0.12f &&
+            middleDist < 0.12f &&
+            ringDist < 0.12f &&
+            pinkyDist < 0.12f;
+
+        if (isIndexOut && othersClosed)
+        {
+            Effects.effects.SetFlameThrower(true,indexTip, Quaternion.identity);
+            Debug.Log("play");
+        }
+        if(!isIndexOut || !othersClosed)
+        {
+            Effects.effects.SetFlameThrower(false, indexTip, Quaternion.identity);
+            Debug.Log("pause");
+        }
     }
 
     void OnDestroy()
