@@ -1,0 +1,12 @@
+# ninja log v5
+44	771	7679498997218095	FramePacing/CMakeFiles/swappywrapper.dir/UnitySwappyWrapper.cpp.o	1875dcaab5066bbc
+774	1031	7679498999667541	C:/Users/lewys/2025-SIT383758-ClassRepo/LewisStuff/Week 8 -  speech recognition/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/cxx/RelWithDebInfo/434r135w/obj/arm64-v8a/libswappywrapper.so	f9d1ea6d07766c88
+21	1888	7679499008399646	GameActivity/CMakeFiles/game.dir/UGAInputKeyEvent.cpp.o	64be91cfe9cbd80b
+27	1896	7679499008419785	GameActivity/CMakeFiles/game.dir/UGAEntry.cpp.o	ba952373145b4666
+38	1919	7679499008715368	GameActivity/CMakeFiles/game.dir/UGAInputMotionEvent.cpp.o	a846f2184fcc737
+6	1927	7679499008735488	GameActivity/CMakeFiles/game.dir/UGAConfiguration.cpp.o	3d53f49bb091523c
+10	1984	7679499009328571	GameActivity/CMakeFiles/game.dir/UGADebug.cpp.o	ae5cf6e041f1538e
+32	2147	7679499011025110	GameActivity/CMakeFiles/game.dir/UGASoftKeyboard.cpp.o	afaa7cf51d4774f9
+16	2176	7679499011296621	GameActivity/CMakeFiles/game.dir/UGAInput.cpp.o	15fcdd6d93f4166c
+0	2233	7679499011880995	GameActivity/CMakeFiles/game.dir/UGAApplication.cpp.o	ace341fc66be50a6
+2233	2327	7679499012820507	C:/Users/lewys/2025-SIT383758-ClassRepo/LewisStuff/Week 8 -  speech recognition/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/cxx/RelWithDebInfo/434r135w/obj/arm64-v8a/libgame.so	d6824617327712d7
