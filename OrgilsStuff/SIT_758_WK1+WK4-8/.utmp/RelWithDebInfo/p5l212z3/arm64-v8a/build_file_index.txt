@@ -1,0 +1,2 @@
+C:\Users\Orgil-Erdene\Projects\UnityProject\SIT_758_WK4\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\cpp\CMakeLists.txt
+C:\Users\Orgil-Erdene\Projects\UnityProject\SIT_758_WK4\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\cpp\GameActivity\CMakeLists.txt

@@ -1,0 +1,5 @@
+C:/Users/Orgil-Erdene/Projects/UnityProject/SIT_758_WK4/.utmp/RelWithDebInfo/p5l212z3/arm64-v8a/CMakeFiles/edit_cache.dir
+C:/Users/Orgil-Erdene/Projects/UnityProject/SIT_758_WK4/.utmp/RelWithDebInfo/p5l212z3/arm64-v8a/CMakeFiles/rebuild_cache.dir
+C:/Users/Orgil-Erdene/Projects/UnityProject/SIT_758_WK4/.utmp/RelWithDebInfo/p5l212z3/arm64-v8a/GameActivity/CMakeFiles/game.dir
+C:/Users/Orgil-Erdene/Projects/UnityProject/SIT_758_WK4/.utmp/RelWithDebInfo/p5l212z3/arm64-v8a/GameActivity/CMakeFiles/edit_cache.dir
+C:/Users/Orgil-Erdene/Projects/UnityProject/SIT_758_WK4/.utmp/RelWithDebInfo/p5l212z3/arm64-v8a/GameActivity/CMakeFiles/rebuild_cache.dir
