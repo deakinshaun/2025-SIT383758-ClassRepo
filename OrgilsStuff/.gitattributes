@@ -1,0 +1,4 @@
+OrgilsStuff/SIT_758_WK1+WK4-8/Assets/Works/Week[[:space:]]8/JEOPARDY_QUESTIONS1.json filter=lfs diff=lfs merge=lfs -text
+OrgilsStuff/SIT_758_WK1+WK4-8/Assets/Works/Week[[:space:]]8/Models/decoder_model.onnx filter=lfs diff=lfs merge=lfs -text
+OrgilsStuff/SIT_758_WK1+WK4-8/Assets/Works/Week[[:space:]]8/Models/decoder_with_past_model.onnx filter=lfs diff=lfs merge=lfs -text
+*.onnx filter=lfs diff=lfs merge=lfs -text
